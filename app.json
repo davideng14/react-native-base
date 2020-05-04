@@ -1,0 +1,17 @@
+{
+  "name": "ReactNativeProjectCRNA",
+  "displayName": "ReactNativeProjectCRNA",
+  "expo": {
+    "name": "ReactNativeProjectCRNA",
+    "slug": "ReactNativeProjectCRNA",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
