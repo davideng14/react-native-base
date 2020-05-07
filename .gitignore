@@ -60,3 +60,6 @@ buck-out/
 
 # Expo
 .expo/*
+
+# Autogenerate files
+android/app/src/main/java/com/reactnativeprojectcrna/generated/

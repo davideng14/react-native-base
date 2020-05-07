@@ -14,7 +14,6 @@
     "expo": "~37.0.3",
     "expo-updates": "~0.1.0",
     "react": "~16.9.0",
-    "react-dom": "~16.9.0",
     "react-native": "~0.61.5",
     "react-native-gesture-handler": "^1.6.1",
     "react-native-reanimated": "^1.7.1",
@@ -28,11 +27,23 @@
     "@types/react": "~16.9.23",
     "@types/react-native": "~0.61.23",
     "babel-preset-expo": "~8.1.0",
+    "babel-preset-react-native": "^4.0.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
     "jest-expo": "~37.0.0",
+    "jest-transform-stub": "^2.0.0",
+    "react-dom": "^16.9.0",
     "typescript": "~3.8.3"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "setupFiles": [
+      "./node_modules/react-native-gesture-handler/jestSetup.js",
+      "./src/setupTests.js"
+    ],
+    "moduleNameMapper": {
+      ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub"
+    }
   },
   "private": true
 }

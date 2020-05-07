@@ -3,7 +3,7 @@ import StoreScreen from '../screens/StoreScreen';
 
 const routes = {
     home: { screen: Home }, 
-    storeScreen: { screen: StoreScreen }, 
+    storeScreen: { screen: StoreScreen } 
 }
 
 export default routes;
